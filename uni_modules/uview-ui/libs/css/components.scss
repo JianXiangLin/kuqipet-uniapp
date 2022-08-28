@@ -13,3 +13,10 @@ view, scroll-view, swiper-item {
 	align-content: flex-start;
 }
 /* #endif */
+@mixin vue-flex($direction: row) {
+	/* #ifndef APP-NVUE */
+	display: flex;
+	flex-direction: $direction;
+	align-items: center;
+	/* #endif */
+}

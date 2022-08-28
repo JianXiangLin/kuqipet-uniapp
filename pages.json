@@ -33,9 +33,9 @@
 			}
 		},
 		{
-			"path": "pages/im/index",
+			"path": "pages/wash/index",
 			"style": {
-				"navigationBarTitleText": "消息"
+				"navigationBarTitleText": "洗护"
 			}
 		},
 		{
@@ -466,5 +466,27 @@
 		"navigationBarTitleText": "uView",
 		"navigationBarBackgroundColor": "#FFFFFF",
 		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#DEDBD9",
+		"selectedColor": "#FFB51A",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/home/index"
+			},
+			{
+				"pagePath": "pages/wash/index"
+			},
+			{
+				"pagePath": "pages/release/index"
+			},
+			{
+				"pagePath": "pages/planet/index"
+			},
+			{
+				"pagePath": "pages/user/index"
+			}
+		]
 	}
 }
